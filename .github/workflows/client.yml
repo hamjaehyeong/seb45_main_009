@@ -3,6 +3,7 @@ name: Client Update
 on:
   push:
     branches: [main, dev, dev-fe]
+  workflow_dispatch:
 
 jobs:
   build:
